@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    line-height: 1.4rem;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    background-color: rgb(224, 235, 226);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: rgb(48, 32, 32);
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 0 24%;
+    background-color: hsla(118, 75%, 75%, 0.3);
+}
+
+#scroll {
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+}
+
+#hide {
+    display: none;
+}
+
+#fadeIn {
+    display: none;
+}
+
+#slideDown {
+    display: none;
+}
+
+#animate {
+    position: relative;
+}
